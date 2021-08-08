@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
 
 
 function insert(data) {
-    const source = "http:" + data.phonetics[0].audio
+    const source = "https:" + data.phonetics[0].audio
     const meanings_array = data.meanings
     let code = ""
     let def2 = ""
